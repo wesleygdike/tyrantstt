@@ -1,0 +1,50 @@
+Scale (update and draw)
+
+sprites
+  $different color schemes
+  -production sprites
+
+Map
+  -camera
+  -larger maps
+
+Game
+  -track current players
+  -gameState
+
+player
+  -multiple partyMarkers
+  -resources
+  -color
+  -role (tyrant, tradesman, or thief)
+
+partyMarker
+  -ref to inhabitants
+  -owner
+  -weight limit (# of inhabitants allowed)
+
+pointOfIntrest
+  -production
+  -consumption
+
+inhabitant
+  -party weight
+  -types
+  -combatants
+    -combat
+    -flocking behavior
+    -health/attk
+  -tradesmen
+    -inventory
+    -buy/sell
+    -pathing...
+
+HUD/GUI
+  -resources
+  -parties info
+  -Menu
+
+AI controls
+
+Sockets
+  -publish to web and use sockets for multi-player
